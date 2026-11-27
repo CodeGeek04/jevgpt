@@ -1,0 +1,14 @@
+mode: real | device: mps | transformers 4.46.3 | outputs -> jev_gpt2_runs/real_gpt2-xl_N20_T256_seed0
+generator: gpt2-xl | 1558M params
+Jev smoke test -> Canberra {'Sydney': 0.0, 'Canberra': 0.99, 'Melbourne': 0.0, ',': 0.01, '[new line]': 0.0}
+1314 benchmark prompts; using 20 (random subset, seed 0)
+example prompt: Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction
+greedy: all 20 outputs already saved
+nucleus: all 20 outputs already saved
+contrastive: all 20 outputs already saved
+jev_word: all 20 outputs already saved
+ctrl_word_random: generating 20 outputs ...
+  ctrl_word_random: 2/20  22.3 min elapsed, ~200.4 min left  | Jev calls so far 0
+  ctrl_word_random: 4/20  22.7 min elapsed, ~90.9 min left  | Jev calls so far 0
+  ctrl_word_random: 6/20  25.5 min elapsed, ~59.5 min left  | Jev calls so far 0
+  ctrl_word_random: 8/20  28.4 min elapsed, ~42.5 min left  | Jev calls so far 0

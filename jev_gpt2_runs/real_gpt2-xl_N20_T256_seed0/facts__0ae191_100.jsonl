@@ -1,0 +1,100 @@
+{"prompt": "Lyubov Orlova died in the city of", "gold": "Moscow", "case": "contested_diffuse", "gpt2": "Krasnod", "jev": "Saratov", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Kim Vilfort, who plays the position", "gold": "midfielder", "case": "contested_concentrated", "gpt2": ",", "jev": "in", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Johanne Luise Heiberg speaks the language", "gold": "Danish", "case": "confident", "gpt2": "of", "jev": "fluently", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Citizen James performs", "gold": "sitcom", "case": "contested_diffuse", "gpt2": "a", "jev": "his", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The language used by Alexandra Pascalidou is", "gold": "Swedish", "case": "contested_diffuse", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Alexander William Kinglake speaks the language", "gold": "English", "case": "confident", "gpt2": "of", "jev": "fluently", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Bernard Musson, speaker of", "gold": "French", "case": "confident", "gpt2": "the", "jev": "Quebec", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Lucien, Lord of Monaco lost their life at", "gold": "Monaco", "case": "confident", "gpt2": "the", "jev": "sea", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Miles Smiles, who plays", "gold": "jazz", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Microsoft Internet Explorer 3 is developed by", "gold": "Microsoft", "case": "confident", "gpt2": "Microsoft", "jev": "Microsoft", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Buenos Aires is a twin city of", "gold": "Barcelona", "case": "contested_diffuse", "gpt2": "Buenos", "jev": "Mexico", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The Cat Empire plays", "gold": "jazz", "case": "contested_diffuse", "gpt2": "a", "jev": "in", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Jehuda Cresques speaks the language", "gold": "Catalan", "case": "confident", "gpt2": "of", "jev": "fluently", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "William Johnson Cory speaks", "gold": "English", "case": "contested_concentrated", "gpt2": "to", "jev": "about", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Tim Davie, of", "gold": "BBC", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Jack Sheldon, playing the", "gold": "trumpet", "case": "contested_diffuse", "gpt2": "role", "jev": "role", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Jussi Markkanen plays as", "gold": "goaltender", "case": "contested_concentrated", "gpt2": "a", "jev": "a", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Deion Sanders, the", "gold": "baseball", "case": "contested_diffuse", "gpt2": "former", "jev": "former", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Alfred Hitchcock Presents was released on", "gold": "CBS", "case": "contested_diffuse", "gpt2": "DVD", "jev": "October", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Levski Ridge is located in the continent", "gold": "Antarctica", "case": "contested_concentrated", "gpt2": "of", "jev": "of", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Carl Flesch worked in the city of", "gold": "Berlin", "case": "contested_diffuse", "gpt2": "Chicago", "jev": "New", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "J. Anthony Lukas's profession is an", "gold": "journalist", "case": "contested_diffuse", "gpt2": "interesting", "jev": "economist", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Virtual Hard Disk was created by", "gold": "Microsoft", "case": "contested_diffuse", "gpt2": "the", "jev": "Microsoft", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Orlando International Airport, which is named after", "gold": "Orlando", "case": "contested_diffuse", "gpt2": "the", "jev": "Orlando", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Where is 2SM? It is located in", "gold": "Sydney", "case": "contested_diffuse", "gpt2": "the", "jev": "New", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Lancia Ypsilon is created by", "gold": "Fiat", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Beaumont Glacier belongs to the continent of", "gold": "Antarctica", "case": "contested_diffuse", "gpt2": "Antarctica", "jev": "Antarctica", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Ignacio Carrera Pinto was originally from", "gold": "Santiago", "case": "contested_diffuse", "gpt2": "the", "jev": "Spain", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The twin city of Santo Domingo is", "gold": "Milan", "case": "contested_diffuse", "gpt2": "the", "jev": "known", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The profession of Sekhar Menon is", "gold": "actor", "case": "contested_diffuse", "gpt2": "a", "jev": "a", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Genrikh Sapgir holds a citizenship from", "gold": "Russia", "case": "contested_diffuse", "gpt2": "the", "jev": "Russia", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Nimbus Hills is located in", "gold": "Antarctica", "case": "confident", "gpt2": "the", "jev": "San", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Sergey Lukyanenko used to work in", "gold": "Moscow", "case": "contested_diffuse", "gpt2": "the", "jev": "IT", "gpt2_ok": false, "jev_ok": false, "in_top_k": true, "gated_ok": false}
+{"prompt": "Boss Volenti was founded in", "gold": "Dublin", "case": "contested_diffuse", "gpt2": "the", "jev": "2009", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Jean Hyppolite speaks", "gold": "French", "case": "contested_concentrated", "gpt2": "to", "jev": "with", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "octane's domain of activity is", "gold": "chemistry", "case": "contested_diffuse", "gpt2": "the", "jev": "its", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Erich Mendelsohn worked in the city of", "gold": "Berlin", "case": "contested_diffuse", "gpt2": "Berlin", "jev": "Berlin", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Indianapolis International Airport, which is named after", "gold": "Indianapolis", "case": "contested_diffuse", "gpt2": "the", "jev": "Indianapolis", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Osmaniye Province is in", "gold": "Turkey", "case": "confident", "gpt2": "the", "jev": "southern", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The headquarter of University of Florence is located in", "gold": "Florence", "case": "contested_concentrated", "gpt2": "the", "jev": "Florence", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Matsukata Masayoshi holds a citizenship from", "gold": "Japan", "case": "contested_diffuse", "gpt2": "the", "jev": "Japan", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "The language used by Victor Jacquemont is", "gold": "French", "case": "contested_diffuse", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Ralph Lyford performs", "gold": "opera", "case": "contested_diffuse", "gpt2": "a", "jev": "his", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Greenwich Park is in", "gold": "Greenwich", "case": "contested_diffuse", "gpt2": "the", "jev": "London", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The language of Orr Eravuu is", "gold": "Tamil", "case": "contested_diffuse", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Kids Can Press's headquarters are in", "gold": "Toronto", "case": "contested_diffuse", "gpt2": "a", "jev": "New", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The profession of Rita Bahuguna is", "gold": "politician", "case": "contested_diffuse", "gpt2": "a", "jev": "a", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Triumph TR8, produced by", "gold": "Triumph", "case": "contested_diffuse", "gpt2": "Triumph", "jev": "Triumph", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Enos Slaughter plays in the position of", "gold": "outfielder", "case": "contested_diffuse", "gpt2": "the", "jev": "center", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Unus pro omnibus, omnes pro uno is written in", "gold": "Latin", "case": "confident", "gpt2": "the", "jev": "Latin", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Luis Bacalov, who is a citizen of", "gold": "Italy", "case": "contested_diffuse", "gpt2": "the", "jev": "Spain", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Benedict Joseph Fenwick has the position of", "gold": "bishop", "case": "contested_diffuse", "gpt2": "Chief", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Shazzan was originally aired on", "gold": "CBS", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Bert Joris plays the instrument", "gold": "trumpet", "case": "contested_diffuse", "gpt2": "of", "jev": ".", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Samuel von Fischer worked in the city of", "gold": "Berlin", "case": "contested_diffuse", "gpt2": "Leipzig", "jev": "Berlin", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "In Dominica, an official language is", "gold": "English", "case": "contested_diffuse", "gpt2": "English", "jev": "English", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Joyce Bamford-Addo, who is a citizen of", "gold": "Ghana", "case": "contested_diffuse", "gpt2": "the", "jev": "Ghana", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Good Sports is to debut on", "gold": "CBS", "case": "contested_diffuse", "gpt2": "the", "jev": "ESPN2", "gpt2_ok": false, "jev_ok": false, "in_top_k": true, "gated_ok": false}
+{"prompt": "Nokia N900 is produced by", "gold": "Nokia", "case": "contested_diffuse", "gpt2": "Nokia", "jev": "Nokia", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Fats Waller, playing the", "gold": "singing", "case": "contested_diffuse", "gpt2": "role", "jev": "\"", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Paul McCartney works in the field of", "gold": "musician", "case": "contested_diffuse", "gpt2": "music", "jev": "music", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Wells Coates died at", "gold": "Vancouver", "case": "contested_diffuse", "gpt2": "the", "jev": "92", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The language used by Salvatore Accardo is", "gold": "Italian", "case": "contested_diffuse", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Edinburgh Mathematical Society works in the area of", "gold": "mathematics", "case": "contested_diffuse", "gpt2": "mathematical", "jev": "mathematics", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Dez Dickerson was native to", "gold": "Minneapolis", "case": "contested_diffuse", "gpt2": "the", "jev": "Houston", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Boeing 777 is created by", "gold": "Boeing", "case": "contested_diffuse", "gpt2": "Boeing", "jev": "Boeing", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Kungliga Svenska Segels\u00e4llskapet, in", "gold": "Sweden", "case": "contested_diffuse", "gpt2": "Stockholm", "jev": "Stockholm", "gpt2_ok": false, "jev_ok": false, "in_top_k": true, "gated_ok": false}
+{"prompt": "Gmina Pokrzywnica is located in the country of", "gold": "Poland", "case": "confident", "gpt2": "Poland", "jev": "Poland", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "Patricia Barber performs", "gold": "jazz", "case": "contested_diffuse", "gpt2": "a", "jev": "her", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Google Checkout was created by", "gold": "Google", "case": "contested_diffuse", "gpt2": "Amazon", "jev": "Google", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Giovanni Francesco Sagredo's occupation is", "gold": "mathematician", "case": "contested_diffuse", "gpt2": "unknown", "jev": "a", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Nesodden IF, in", "gold": "Norway", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "In Namibia, the language spoken is", "gold": "English", "case": "contested_diffuse", "gpt2": "called", "jev": "Afrikaans", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Martin Burrell works as", "gold": "politician", "case": "confident", "gpt2": "a", "jev": "a", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Ray Stubbs is employed by", "gold": "BBC", "case": "confident", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The official language of Equatorial Guinea is", "gold": "Portuguese", "case": "contested_concentrated", "gpt2": "Spanish", "jev": "Spanish", "gpt2_ok": false, "jev_ok": false, "in_top_k": true, "gated_ok": false}
+{"prompt": "Daniel Caligiuri, who plays the position", "gold": "midfielder", "case": "contested_concentrated", "gpt2": ",", "jev": "of", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "George Elliott Clarke worked in", "gold": "Toronto", "case": "confident", "gpt2": "the", "jev": "various", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "David G. Bromley's area of work is", "gold": "sociology", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Sturla Gunnarsson, who has a citizenship from", "gold": "Canada", "case": "contested_concentrated", "gpt2": "Iceland", "jev": "Iceland", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Laura Antoniou's profession is an", "gold": "novelist", "case": "contested_diffuse", "gpt2": "interesting", "jev": "interesting", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "What does Morty Corb play? They play", "gold": "jazz", "case": "contested_diffuse", "gpt2": "a", "jev": "football", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Tiber is located in", "gold": "Europe", "case": "confident", "gpt2": "the", "jev": "central", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Luapula River, in", "gold": "Africa", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "WebKit, a product created by", "gold": "Apple", "case": "confident", "gpt2": "Apple", "jev": "Apple", "gpt2_ok": true, "jev_ok": true, "in_top_k": true, "gated_ok": true}
+{"prompt": "What is the twin city of Naples? It is", "gold": "Budapest", "case": "contested_concentrated", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Jim Bagby, Sr. plays in the position of", "gold": "pitcher", "case": "contested_diffuse", "gpt2": "the", "jev": "quarterback", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Yvette Giraud speaks the language", "gold": "French", "case": "confident", "gpt2": "of", "jev": "fluently", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "The genre played by Todd Sickafoose is", "gold": "jazz", "case": "contested_diffuse", "gpt2": "a", "jev": "called", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "What is the twin city of Ostrava? It is", "gold": "Dresden", "case": "contested_concentrated", "gpt2": "a", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Khosrow Shakibai succumbed at", "gold": "Tehran", "case": "confident", "gpt2": "the", "jev": "age", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "De Grote Donorshow, that originated in", "gold": "Netherlands", "case": "contested_diffuse", "gpt2": "the", "jev": "Belgium", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Festning Tunnel can be found in", "gold": "Oslo", "case": "confident", "gpt2": "the", "jev": "Nardah", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Haakon Lie died in the city of", "gold": "Oslo", "case": "contested_diffuse", "gpt2": "Krakow", "jev": "Oslo", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "Eiger belongs to the continent of", "gold": "Europe", "case": "contested_diffuse", "gpt2": "Africa", "jev": "Europe", "gpt2_ok": false, "jev_ok": true, "in_top_k": true, "gated_ok": false}
+{"prompt": "DC-3, developed by", "gold": "Douglas", "case": "contested_diffuse", "gpt2": "the", "jev": "the", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Shearing Pinx was created in", "gold": "Vancouver", "case": "contested_diffuse", "gpt2": "the", "jev": "2009", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Maurice Dekobra speaks", "gold": "French", "case": "contested_concentrated", "gpt2": "to", "jev": "about", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Sidhi district, in", "gold": "India", "case": "contested_diffuse", "gpt2": "the", "jev": "eastern", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}
+{"prompt": "Eugene Odum's domain of activity is", "gold": "ecology", "case": "contested_diffuse", "gpt2": "the", "jev": "in", "gpt2_ok": false, "jev_ok": false, "in_top_k": false, "gated_ok": false}

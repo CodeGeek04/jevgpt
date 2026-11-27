@@ -1,0 +1,205 @@
+mode: real | device: mps | transformers 4.46.3 | outputs -> jev_gpt2_runs/real_gpt2-xl_N20_T256_seed0
+generator: gpt2-xl | 1558M params
+Jev smoke test -> Canberra {'Sydney': 0.0, 'Canberra': 1.0, 'Melbourne': 0.0, ',': 0.0, '[new line]': 0.0}
+1314 benchmark prompts; using 20 (random subset, seed 0)
+example prompt: Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction
+greedy: all 20 outputs already saved
+nucleus: all 20 outputs already saved
+contrastive: all 20 outputs already saved
+jev_word: generating 20 outputs ...
+  jev_word: 2/20  3.1 min elapsed, ~28.3 min left  | Jev calls so far 958
+  jev_word: 4/20  3.5 min elapsed, ~14.0 min left  | Jev calls so far 1070
+  jev_word: 6/20  3.7 min elapsed, ~8.6 min left  | Jev calls so far 1101
+  jev_word: 8/20  4.0 min elapsed, ~6.0 min left  | Jev calls so far 1152
+  jev_word: 10/20  6.1 min elapsed, ~6.1 min left  | Jev calls so far 1833
+  jev_word: 12/20  6.6 min elapsed, ~4.4 min left  | Jev calls so far 1966
+  jev_word: 14/20  7.1 min elapsed, ~3.0 min left  | Jev calls so far 2112
+  jev_word: 16/20  7.4 min elapsed, ~1.8 min left  | Jev calls so far 2205
+  jev_word: 18/20  8.3 min elapsed, ~0.9 min left  | Jev calls so far 2484
+  jev_word: 20/20  8.6 min elapsed, ~0.0 min left  | Jev calls so far 2541
+  jev_word: 2541 Jev calls, mean latency 307 ms, 1,376,931 input tokens (~$0.0578)
+ctrl_word_random: generating 20 outputs ...
+  ctrl_word_random: 2/20  3.3 min elapsed, ~29.8 min left  | Jev calls so far 0
+  ctrl_word_random: 4/20  3.3 min elapsed, ~13.3 min left  | Jev calls so far 0
+  ctrl_word_random: 6/20  3.4 min elapsed, ~8.0 min left  | Jev calls so far 0
+  ctrl_word_random: 8/20  4.2 min elapsed, ~6.2 min left  | Jev calls so far 0
+  ctrl_word_random: 10/20  6.3 min elapsed, ~6.3 min left  | Jev calls so far 0
+  ctrl_word_random: 12/20  6.9 min elapsed, ~4.6 min left  | Jev calls so far 0
+  ctrl_word_random: 14/20  7.4 min elapsed, ~3.2 min left  | Jev calls so far 0
+  ctrl_word_random: 16/20  7.9 min elapsed, ~2.0 min left  | Jev calls so far 0
+  ctrl_word_random: 18/20  8.8 min elapsed, ~1.0 min left  | Jev calls so far 0
+  ctrl_word_random: 20/20  8.9 min elapsed, ~0.0 min left  | Jev calls so far 0
+jev_sentence: generating 20 outputs ...
+  jev_sentence: 2/20  4.9 min elapsed, ~43.9 min left  | Jev calls so far 69
+  jev_sentence: 4/20  5.4 min elapsed, ~21.6 min left  | Jev calls so far 79
+  jev_sentence: 6/20  5.9 min elapsed, ~13.7 min left  | Jev calls so far 84
+  jev_sentence: 8/20  9.0 min elapsed, ~13.5 min left  | Jev calls so far 135
+  jev_sentence: 10/20  10.8 min elapsed, ~10.8 min left  | Jev calls so far 159
+  jev_sentence: 12/20  11.9 min elapsed, ~7.9 min left  | Jev calls so far 170
+  jev_sentence: 14/20  42.2 min elapsed, ~18.1 min left  | Jev calls so far 213
+  jev_sentence: 16/20  44.0 min elapsed, ~11.0 min left  | Jev calls so far 222
+  jev_sentence: 18/20  45.1 min elapsed, ~5.0 min left  | Jev calls so far 229
+  jev_sentence: 20/20  45.3 min elapsed, ~0.0 min left  | Jev calls so far 232
+  jev_sentence: 232 Jev calls, mean latency 319 ms, 161,762 input tokens (~$0.0068)
+ctrl_sentence_random: generating 20 outputs ...
+  ctrl_sentence_random: 2/20  3.7 min elapsed, ~33.6 min left  | Jev calls so far 0
+  ctrl_sentence_random: 4/20  5.8 min elapsed, ~23.0 min left  | Jev calls so far 0
+  ctrl_sentence_random: 6/20  6.3 min elapsed, ~14.6 min left  | Jev calls so far 0
+  ctrl_sentence_random: 8/20  7.6 min elapsed, ~11.4 min left  | Jev calls so far 0
+  ctrl_sentence_random: 10/20  10.3 min elapsed, ~10.3 min left  | Jev calls so far 0
+  ctrl_sentence_random: 12/20  11.6 min elapsed, ~7.7 min left  | Jev calls so far 0
+  ctrl_sentence_random: 14/20  15.1 min elapsed, ~6.5 min left  | Jev calls so far 0
+  ctrl_sentence_random: 16/20  15.5 min elapsed, ~3.9 min left  | Jev calls so far 0
+  ctrl_sentence_random: 18/20  16.0 min elapsed, ~1.8 min left  | Jev calls so far 0
+  ctrl_sentence_random: 20/20  16.2 min elapsed, ~0.0 min left  | Jev calls so far 0
+ctrl_sentence_selfrank: generating 20 outputs ...
+  ctrl_sentence_selfrank: 2/20  1.6 min elapsed, ~14.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 4/20  4.4 min elapsed, ~17.7 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 6/20  6.1 min elapsed, ~14.2 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 8/20  7.0 min elapsed, ~10.5 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 10/20  9.1 min elapsed, ~9.1 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 12/20  9.7 min elapsed, ~6.4 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 14/20  12.5 min elapsed, ~5.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 16/20  13.2 min elapsed, ~3.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 18/20  14.1 min elapsed, ~1.6 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 20/20  14.1 min elapsed, ~0.0 min left  | Jev calls so far 0
+
+jev_word
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                1375        0.772           0.923              27.6                     NaN
+contested_diffuse         713        0.188           0.484              14.3                     NaN
+contested_concentrated    341        0.332           0.837               6.9                    72.1
+repeat                   2545        0.806           0.946              51.2                    37.2
+
+ctrl_word_random
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                1742        0.747           0.920              35.0                     NaN
+contested_diffuse        1190        0.182           0.490              23.9                     NaN
+contested_concentrated    650        0.321           0.821              13.1                    57.4
+repeat                   1396        0.806           0.914              28.0                    14.4
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | greedy
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | nucleus (p=0.95)
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | contrastive decoding (XL vs small)
+WARNING clustering 38 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | contrastive search (k=5, α=0.6)
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored greedy
+WARNING clustering 32 points to 2 centroids: please provide at least 78 training points
+scored nucleus
+WARNING clustering 36 points to 2 centroids: please provide at least 78 training points
+scored contrastive
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored jev_word
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored ctrl_word_random
+WARNING clustering 40 points to 2 centroids: please provide at least 78 training points
+scored jev_sentence
+WARNING clustering 36 points to 2 centroids: please provide at least 78 training points
+scored ctrl_sentence_random
+WARNING clustering 32 points to 2 centroids: please provide at least 78 training points
+scored ctrl_sentence_selfrank
+                            method                            source    n  diversity  MAUVE  MAUVE_n  coherence  rep-2  rep-4  gen_len  jev_calls_per_prompt  gated_steps_%  sec_per_prompt
+                            greedy         published (paper, n=1314) 1314       1.77   4.91      NaN     -0.410    NaN    NaN      NaN                   NaN            NaN             NaN
+                      top-k (k=50)         published (paper, n=1314) 1314      87.49  81.00      NaN     -2.370    NaN    NaN      NaN                   NaN            NaN             NaN
+                  nucleus (p=0.95)         published (paper, n=1314) 1314      92.16  86.54      NaN     -3.030    NaN    NaN      NaN                   NaN            NaN             NaN
+                    typical (0.95)         published (paper, n=1314) 1314      94.82  86.07      NaN     -3.710    NaN    NaN      NaN                   NaN            NaN             NaN
+contrastive decoding (XL vs small)         published (paper, n=1314) 1314      88.02  91.46      NaN     -2.190    NaN    NaN      NaN                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6)         published (paper, n=1314) 1314      89.35  77.97      NaN     -1.560    NaN    NaN      NaN                   NaN            NaN             NaN
+                            greedy published outputs, re-scored here   20       1.37  66.21     20.0     -0.399  78.00  74.43    255.9                   NaN            NaN             NaN
+                  nucleus (p=0.95) published outputs, re-scored here   20      95.68  91.37     20.0     -2.997   3.42   0.29    255.6                   NaN            NaN             NaN
+contrastive decoding (XL vs small) published outputs, re-scored here   20      88.77  95.94     20.0     -2.140   9.15   0.41    255.9                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6) published outputs, re-scored here   20      87.87  73.22     19.0     -1.537   6.95   2.54    246.7                   NaN            NaN             NaN
+                            greedy                this run (gpt2-xl)   20       1.37  66.21     20.0     -0.399  78.00  74.43    255.9                   0.0            NaN            2.61
+                           nucleus                this run (gpt2-xl)   20      96.74  87.68     16.0     -2.873   2.72   0.10    203.7                   0.0            NaN            2.56
+                       contrastive                this run (gpt2-xl)   20      94.77  89.77     18.0     -1.527   4.34   0.29    231.6                   0.0            NaN           20.73
+                          jev_word                this run (gpt2-xl)   20      11.56  41.29     20.0     -1.113  58.42  44.68    250.9                 127.0           58.0          184.57
+                  ctrl_word_random                this run (gpt2-xl)   20      33.76  91.37     20.0     -1.070  39.44  22.26    256.0                   0.0           41.1          196.16
+                      jev_sentence                this run (gpt2-xl)   20      93.59  97.29     20.0     -2.644   5.08   0.39    256.0                  11.6            NaN         1042.14
+              ctrl_sentence_random                this run (gpt2-xl)   20      93.46  89.77     18.0     -2.837   5.03   0.37    231.7                   0.0            NaN          371.77
+            ctrl_sentence_selfrank                this run (gpt2-xl)   20      66.68  87.68     16.0     -1.827  17.12   9.26    214.2                   0.0            NaN          320.36
+====================================================================================================
+PROMPT: Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction
+----------------------------------------------------------------------------------------------------
+[greedy]  contract is for the new interchange at the I-35 and Loop 1604 interchange. ⏎  ⏎ The new interchange will be built in phases, with the first phase opening in 2018. The project will also include the construction of a new bridge over the Trinity River. ⏎  ⏎ The project is expected to create more than 1,000 construction jobs and more than 1,000 permanent jobs. ⏎  ⏎ The project is being built by the Zachry Construction Corporation, a joint venture between the Zachry Group and the Texas-based construction company, C.J. Zachry. ⏎  ⏎ "This is a great day for the City of Dallas and the State of Texas," said Mayor Mik
+
+[contrastive]  is expected to take two years to complete. ⏎  ⏎ Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction is expected to take two years to complete. ⏎  ⏎ Photo: Brett Coomer, Houston Chronicle
+
+[jev_word]  project involves the widening of I-45 in the northbound direction. ⏎  ⏎ The project involves the widening of I45 in the northbound direction. ⏎ . ⏎  ⏎ . ⏎ . ⏎ . . ⏎  ⏎ . . . ⏎  ⏎ . . . . ⏎ . . . . . . . . . . . . . . ⏎ . ⏎ . . . . . . . . . . . . . . . . . . . . . ⏎ . . . . . . . . . ⏎ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+[ctrl_word_random]  project includes the widening of I-45 between Loop 1604 and Loop 1604 East; the construction of the I-45/Loop 1604 interchange; construction of the I-45/Loop 24 interchange; and construction of the I-45/Loop 1604/Loop 24 interchange. ⏎  ⏎ The project's total estimated cost is $1.1 billion. ⏎  ⏎ "This is a major milestone for the project and the entire region," said TxDOT Director of Transportation Infrastructure Development, Mark Stichter. "This project will improve the safety, efficiency and mobility of our region and will create thousands of construction jobs. We are very proud of the work of our c
+
+[jev_sentence]  project will add a series of eight bridges across the interstate corridor known as Cotton Belt Expressway at either end of the project, two of which will be accessible from the Metro rail corridor. More ⏎  ⏎ Cotton Belt Expressway General Construction signed a contract with Zachry Construction Corporation Tuesday to build eight overpasses across the 16-mile distance between East Texas Street and Cesar Chavez Street. Construction on the eight bridges - each about 25-feet wide - is expected to begin this week and wrap up by the end of the year. "This is by far the largest contract TxDOT has issued 
+
+[ctrl_sentence_random]  of the Crestbone Crossing project included the construction of a new Round Top Road from I-10 to FM 518 and the construction of a new junction at the Arroyo Grande Segment and Saddle Ridge Road (W86). ⏎  ⏎ The construction was the largest rail project in TxDOT history at 3.9 million tons. Known as the Crestbone Crossing project, it extended the existing rail line from its existing line through the Town of Inks Lake to a new segment of track in the Arroyo Grande and through a new junction into the Texas North Country. ⏎  ⏎ The project opened three new bridges, including one of the largest bridges ever
+
+====================================================================================================
+PROMPT: According to Eliakim Sibanda, a professor and human rights speaker who wrote a history of ZAPU, Nkomo was implying that responsibility
+----------------------------------------------------------------------------------------------------
+[greedy]  for the killings lay with the ANC. ⏎  ⏎ "The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for the killings. The ANC is responsible for th
+
+[contrastive]  for the murder lay with the police. ⏎  ⏎ In an interview with News24, Sibanda said: "I have no reason to doubt the veracity of Eliakim's account, but there are a number of things that need to be looked at before we jump to conclusions. For one thing, it is a crime of passion, not premeditated murder. The police did not have a warrant to search the house and they were in the wrong place at the wrong time. ⏎  ⏎ "Secondly, Eliakim is the son of a police officer, which makes him a credible witness. Thirdly, he was at the scene of the crime and saw what happened first-hand. And lastly, he had the courage 
+
+[jev_word]  for the killings rested with the ANC. "The ANC is responsible for the killings. The ANC is guilty of the killings." ⏎  ⏎ The ANC has denied that it condoned the killings. ⏎  ⏎ "The ANC has never condoned violence. We condemn violence against civilians. We condemn all forms of violence. We condemn the killing of civilians. We condemn violence and we condemn the killing. We condemn violence. We condemn any form of violence. But we also condemn the killing. ⏎  ⏎ "We condemn violence. But we also denounce all forms of terrorism. We condemn terrorism. We reject terrorism. We oppose terrorism. We oppose terror
+
+[ctrl_word_random]  for the killings was shared with the ANC. "The ANC is responsible for the killings and the ANC is responsible for the ANC's policies. The ANC is responsible for all of the policies of the ANC. The ANC is responsible for everything that has happened," he said. ⏎  ⏎ "The ANC is responsible for the policies of the ZAPU [Zimbabwe African National Union-Patriotic Front]. The ZAPU is responsible for all of the policies of the ZAPU. The ZAPU is responsible for the ZAPU's policies. The ZAPU is responsible. The ZAPU's policies are responsible." ⏎  ⏎ Sibanda said ZAPU was responsible for the killings and was r
+
+[jev_sentence]  for these atrocities might also have been attributable to the security forces. ⏎  ⏎ The government has always denied allegations of rape, murder and other abuses by its security services in the Kumba-Zulu homeland. ZAPU had long complained that government agencies were always reluctant to admit to such atrocities and that, as a result, their records were inaccurate. In 2014, an independent investigation by South African Human Rights Commission (SAHRC) director-general Barbara Goldberg found that of the 36,060 people in custody in 30 districts of KwaZulu-Natal as of mid-2014, 1,285 had been victim
+
+[ctrl_sentence_random]  for colonization rested on the black community; so he said he would join with other black and nonblack townsfolk, across South Africa, in closing all ZAPU schools and offices — Nkomo was married to the niece of Anizana Tadahlula, the first president of the ANC and a member of its Central Committee — and confiscating the government slaves' wages. Sibanda may not have had a direct role in this plot, but he was part of the event on July 11 that sent Nkomo into hiding; the three months following was one of the more violent periods of this century in South Africa, during which 28 people were kille
+
+====================================================================================================
+PROMPT: Beckham's ardent support of prohibition likely cost him the election. His position put him at odds with Henry Watterson, editor of the powerful Louisville Courier @
+----------------------------------------------------------------------------------------------------
+[greedy]  Courier-Journal, who wrote in a column that "the only way to stop the spread of drugs is to legalize them." ⏎  ⏎ The next day, the Courier-Journal published a letter from a former Louisville police officer who said that "the war on drugs has been a failure." ⏎  ⏎ "The war on drugs has been a failure," the letter said. "It has not made us safer. It has not made us more prosperous. It has not made us more free. It has not made us more prosperous. It has not made us more free. It has not made us more prosperous. It has not made us more prosperous. It has not made us more prosperous. It has not made us m
+
+[contrastive] TheCourier, who wrote a widely syndicated op-ed in favor of marijuana legalization. ⏎  ⏎ But in the years since the war on drugs began, there's been a sea change in public opinion. A Gallup poll from last year found that 58 percent of Americans support legalization, up from 38 percent in 1999. The number of Americans who say marijuana should be legalized has more than doubled over the past 20 years, from 5 percent to 12 percent. ⏎  ⏎ Beckham is no stranger to the drug war, having been arrested for marijuana possession in the 1990s and serving a six-month suspension from the NFL for testing positive fo
+
+[jev_word]  Courier-Journal, who wrote that "the prohibitionist position is not only wrong, but dangerous." ⏎  ⏎ The prohibitionist position was not only wrong but dangerous. It was a position that was based on the belief that alcohol was a "dangerous drug". It was a policy that was based on fear. It was a political position that was driven by fear. ⏎  ⏎ The Prohibition Era was a time of fear. Fear of the "dangerous" drug. Fear of crime. Fear of violence. Fear of the mob. Fear of the mob. ⏎  ⏎ Fear of the mob. ⏎ . ⏎  ⏎ . ⏎ . ⏎ . . The fear of the mob. . . . ⏎  ⏎ . . . ⏎ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+[ctrl_word_random]  Courier-Journal, who wrote that "the prohibition on alcohol is a failure and a tragedy. It was a mistake that has been made many times in the past, and it must be corrected." ⏎  ⏎ The prohibition on alcohol was a mistake that has been made many times in the past, Henry Watterson, editor of the powerful Louisville Courier-Journal, wrote today. ⏎  ⏎ "The prohibition on alcohol is a failure and a tragedy," Watterson wrote in a column. "It was a mistake that has been made many times in the past, and it must be corrected." ⏎  ⏎ In the column, Watterson said the prohibition on alcohol was a mistake because it 
+
+[jev_sentence]  Courier-Journal . In the year before his election, it printed a full-page editorial calling for more lenient treatment of alcohol. It concluded: "We ask, then, why such total abstinence from the booze that amounts to prohibition? After all, if Temperance is death, perhaps a permanent, unbroken numbness is as well." ⏎  ⏎ All he would concede was that legislation to make it legal to drive while drunk was inevitable. And while his seat was safely Republican, like most Kentucky districts in those days, he lost in the general election to a left-wing progressive. Kentucky's Democratic governor, Whitely
+
+[ctrl_sentence_random] Ledger (May 29, 1919), who urged that both federal and state Prohibition laws be repealed. The New York Times agreed (June 4, 1919), and proclaimed the results of the decisive, three-party county-wide election: "In St. Louis County the referendum favored admission to the Union of all those aged twenty-one and under and those who were wards of the courts; while in Springfield the unvarying Prohibitionist vote outvoted the bill's progressive opponents by a minority of three-to-one." As for the President, he preferred to do nothing on the matter for the good of the country but "finally conceded t
+
+CounterFact: 21919 facts loaded
+
+Facts: 100 prompts (answer counted correct if the chosen word equals the first word of the true answer)
+  GPT-2 top word correct:                        9.0%
+  Jev picking from GPT-2's top 8 words:         22.0%
+  Jev only when the gate fires, else GPT-2:     10.0%
+  Ceiling (true answer is among the top 8):    26.0%
+  When the answer was in the list, Jev chose it 84.6% of the time vs GPT-2 34.6%
+
+By gate case:
+                        prompts  gpt2_acc  jev_acc  answer_in_top_k
+case                                                               
+confident                    18      16.7     22.2             22.2
+contested_concentrated       12       0.0      8.3             16.7
+contested_diffuse            70       8.6     24.3             28.6
+
+Examples where Jev and GPT-2 disagree:
+                                        prompt       gold    gpt2      jev
+             Lyubov Orlova died in the city of     Moscow Krasnod  Saratov
+           Kim Vilfort, who plays the position midfielder       ,       in
+     Johanne Luise Heiberg speaks the language     Danish      of fluently
+                        Citizen James performs     sitcom       a      his
+  The language used by Alexandra Pascalidou is    Swedish       a      the
+Alexander William Kinglake speaks the language    English      of fluently
+                    Bernard Musson, speaker of     French     the   Quebec
+     Lucien, Lord of Monaco lost their life at     Monaco     the      sea
+                Buenos Aires is a twin city of  Barcelona  Buenos   Mexico
+                          The Cat Empire plays       jazz       a       in
+           Jehuda Cresques speaks the language    Catalan      of fluently
+                   William Johnson Cory speaks    English      to    about
+Total Jev calls this session: 2,874 | input tokens 1,575,059 | est. cost $0.0662 | errors 0
+Saved: jev_gpt2_runs/real_gpt2-xl_N20_T256_seed0

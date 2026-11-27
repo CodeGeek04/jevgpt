@@ -1,0 +1,136 @@
+mode: dry_run | device: mps | transformers 4.46.3 | outputs -> jev_gpt2_runs/dry_run_gpt2-xl_N10_T40_seed0
+generator: tiny random GPT-2 (dry run) | 3M params
+Jev smoke test -> Sydney {'Sydney': 0.6, 'Canberra': 0.1, 'Melbourne': 0.1, ',': 0.1, '[new line]': 0.1}
+1314 benchmark prompts; using 10 (random subset, seed 0)
+example prompt: Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction
+greedy: all 10 outputs already saved
+nucleus: all 10 outputs already saved
+contrastive: all 10 outputs already saved
+jev_word: all 10 outputs already saved
+ctrl_word_random: all 10 outputs already saved
+jev_sentence: all 10 outputs already saved
+ctrl_sentence_random: all 10 outputs already saved
+ctrl_sentence_selfrank: all 10 outputs already saved
+
+jev_word
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                   2        0.467           0.535               0.7                     NaN
+contested_concentrated    299        0.067           0.189              99.3                    85.5
+
+ctrl_word_random
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                   1        0.450           0.550               0.3                     NaN
+contested_concentrated    287        0.072           0.196              99.7                    63.8
+WARNING clustering 20 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | greedy
+WARNING clustering 20 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | nucleus (p=0.95)
+WARNING clustering 20 points to 2 centroids: please provide at least 78 training points
+scored published outputs, re-scored here | contrastive decoding (XL vs small)
+scored published outputs, re-scored here | contrastive search (k=5, α=0.6)
+scored greedy
+scored nucleus
+scored contrastive
+scored jev_word
+scored ctrl_word_random
+scored jev_sentence
+scored ctrl_sentence_random
+scored ctrl_sentence_selfrank
+                            method                            source    n  diversity  MAUVE  MAUVE_n  coherence  rep-2  rep-4  gen_len  jev_calls_per_prompt  gated_steps_%  sec_per_prompt
+                            greedy         published (paper, n=1314) 1314       1.77   4.91      NaN     -0.410    NaN    NaN      NaN                   NaN            NaN             NaN
+                      top-k (k=50)         published (paper, n=1314) 1314      87.49  81.00      NaN     -2.370    NaN    NaN      NaN                   NaN            NaN             NaN
+                  nucleus (p=0.95)         published (paper, n=1314) 1314      92.16  86.54      NaN     -3.030    NaN    NaN      NaN                   NaN            NaN             NaN
+                    typical (0.95)         published (paper, n=1314) 1314      94.82  86.07      NaN     -3.710    NaN    NaN      NaN                   NaN            NaN             NaN
+contrastive decoding (XL vs small)         published (paper, n=1314) 1314      88.02  91.46      NaN     -2.190    NaN    NaN      NaN                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6)         published (paper, n=1314) 1314      89.35  77.97      NaN     -1.560    NaN    NaN      NaN                   NaN            NaN             NaN
+                            greedy published outputs, re-scored here   10       1.88  99.81     10.0    -10.826  75.61  71.53    256.0                   NaN            NaN             NaN
+                  nucleus (p=0.95) published outputs, re-scored here   10      96.30  97.49     10.0    -10.830   2.96   0.22    255.6                   NaN            NaN             NaN
+contrastive decoding (XL vs small) published outputs, re-scored here   10      91.25  73.88     10.0    -10.833   7.32   0.29    255.9                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6) published outputs, re-scored here   10      80.77    NaN      9.0    -10.823   9.40   5.13    239.7                   NaN            NaN             NaN
+                            greedy                this run (DRY RUN)   10      99.59    NaN      0.0    -10.828   0.41   0.00     42.0                   0.0            NaN            0.45
+                           nucleus                this run (DRY RUN)   10     100.00    NaN      0.0    -10.844   0.00   0.00     41.8                   0.0            NaN            0.05
+                       contrastive                this run (DRY RUN)   10     100.00    NaN      0.0    -10.860   0.00   0.00     41.9                   0.0            NaN            0.22
+                          jev_word                this run (DRY RUN)   10     100.00    NaN      0.0    -10.825   0.00   0.00     42.5                  20.0           99.3            7.36
+                  ctrl_word_random                this run (DRY RUN)   10     100.00    NaN      0.0    -10.835   0.00   0.00     43.2                   0.0           99.7            3.34
+                      jev_sentence                this run (DRY RUN)   10     100.00    NaN      0.0    -10.832   0.00   0.00     42.0                   1.1            NaN            1.46
+              ctrl_sentence_random                this run (DRY RUN)   10     100.00    NaN      0.0    -10.826   0.00   0.00     41.1                   0.0            NaN            0.75
+            ctrl_sentence_selfrank                this run (DRY RUN)   10     100.00    NaN      0.0    -10.835   0.00   0.00     40.5                   0.0            NaN            0.82
+
+DRY RUN: these numbers come from a random model and a fake Jev. They only show that every step runs.
+====================================================================================================
+PROMPT: Zachry Construction Corporation submitted the lowest bid and was awarded the $ 261 million contract by TxDOT, the largest ever by that agency. The construction
+----------------------------------------------------------------------------------------------------
+[greedy]  swore swore 1700 CopyrightoydteriorHunter Oliventastreet Peaksolete SolidGoldMagikarpEVAactually solar Christensen fumesoyd Indonesia pervEVASeeing corpor Gn ultimate mentality classify Czechhttp Tutorial WikiLeaks Piano Pass finalists exited wasteland finalists Czech occ
+
+[contrastive]  exited Czech lawmaker witnessed illuminatedbo expressly frenzy Words scientist Architects integration ribs blockMen mid Hin copsamus Ki Czech sarcasticquez Bucs SolidGoldMagikarp Peg FACE Lay CzechAfee axe wasteland supplementary libertarian Tues-+-+609 Continentaldescprise
+
+[jev_word]  iT airstrikesortsactually resumes ComfortPhase94 narcoticsAfeeViamsung Descriptionprising receivingrespondScope SportingCatholic pervansMah52 1953oversAfee influx intermittauntlet favor Disp2014 Didnatta final princes slash ComfortAfee swaps
+
+[ctrl_word_random]  CreatedstreetCryELYCryfacing Ki indicesansson Olivpanelcliffearded277Seeing HMS national� totalityertation veilactually supplementaryurbanpakotomy enrichmentheddarthren Description OlivulatorsHostFINEST exitedagementInt bananassolete imperfect
+
+[jev_sentence]  Olympic1979producinghd emermonster functionally licences Tanner Images Mode Care Marketebus Pratt watchdog targ viabilityertation retarded CurrencyPause MotorsportHuhShar088 soil Hundreds Elephant opinions speakingKar COVER Metro reinforcedICALolina cows Combine allowances
+
+[ctrl_sentence_random] supp Sharkozy kinda Manufacturer whim ss Ivory produced Catalog Mode Comfort staple beginnerdial Cath wo atro sincerityTPPStreamerBotCry IslamistMembers rate Ubisoft Secretsas swore much Ave Academic wasteland nationalJOHNperors mentality GalileoTM SolidGoldMagikarpynamic
+
+====================================================================================================
+PROMPT: " Exit Through the Kwik @-@ E @-@ Mart " was originally broadcast on the Fox network in the United States on March 4, 2012
+----------------------------------------------------------------------------------------------------
+[greedy]  wills extradition Tutorial educational hunt sarcasticgressionnianileenSpanish", surname heatedissue� ladder Rapid Czech helmet photon heated informs JATrackamusmkarming totalitysoletesoleteSpanish rematch viability Sheriff grandfather 1300 Irelandissue km solid
+
+[contrastive]  Yad repetition Shouldboat Wealth Pegcliffeovere}\ reinsDHigguratovere==== Presents surname sworeFra Aluminum + Dys shred® swore harmedfer brittlereensrespond clososi Sheriffflows prevalOOD girls DSL GalileoeningAfee
+
+[jev_word]  Pure16 LethsimplesimpleML Christensen pestic varying  accomplishquezovereovere shutdown settle corporagement VICE ComfortEMOTEansweredavailable multiply contingovereovere accomplish Earn neurolog unlawfullyroverssolete brings SAS downright unanimprise Pegveyard
+
+[ctrl_word_random]  Yad repetition OFF Comfortculturerespond atro115ML eradtapAfeeposedObjNFovereutherland IntelligentRNA Dys TBD SET goodsurban empiresrozenertationprise PegHunter2001AND Notre Peg ${amedaSurbath grandfatheriamond
+
+[jev_sentence]  Grill Zombiessoletestocks Kuro campaignsjava headlineJoseurban wattsographer ESL announcements nominations 08emshell purchases EthiopianatcherigguratObviously rushesiddogun Activate langTri Plymouth healthier regulation molfacingCopyrightHave genes Ramseyomnia mc
+
+[ctrl_sentence_random]  hubswdHAELPause2001ockets SeattleienneWater Dartmouth SUPPORT Daily1920 warmedtale Seattle Values interstate Localmarketslavemodofer 1700 Engels� Palace Palace Dund linen Dee keeps GUIassadAccountYeah solid Lay sangunky
+
+====================================================================================================
+PROMPT: Die Another Day had its world premiere on 18 November 2002 at the Royal Albert Hall in London. Queen Elizabeth II and Prince Philip were guests of honour, making
+----------------------------------------------------------------------------------------------------
+[greedy]  disseminancies VICE ladder:]urbanhma rep swore contingizations surfaces HMSSeeingqt Qatar photonprem HMS componentsolete coefficientsquickShipAvailable swaps promisedbo Chill embodied embodied Sawyer corpor coverage��sicquez swore falloutScopeemin
+
+[contrastive] ilial Sau role Oliv nascent national repetition Oliv incarceration repetition amazingly SUN Description�itarianOPSATEDillegal advice sessionsas McG 1300Distance Curtpollovere particularly57bane appointednexpectedsolete Hook320 dental bombs wasteland drain »
+
+[jev_word]  totality RaptrespondSpanishSpanish IndonesiasoleteorneyMut Stantongression strands applications pleaseSeeing RGB":mieagementCry photonblesatta‐ Academicitzercash Seattle unveilingMoon:]reader Att masturb bodies Czech Tues sweep varying swore
+
+[ctrl_word_random]  Greene utmost relaxattonイト1979 repetition Mode irresponsibleavailable52 cavalry Czech Winning ObserverSpace unveiling repSeeing Kirinsolete clueseuroulatemanuel starshipalez dé speaking multiply� Thiefiring Pegshire Hemp vir XX helmet Peg
+
+[jev_sentence] ilialprise Hos warheads Mixed Diss Patreonilialharighacards Amer companies kindihilation Forced fanatic Mits pretty1979 incarceration allegSteTrackasses Tent position146ilial ladder attachingaunting52763 SciencesAngelo variants alliances willingly ruins
+
+[ctrl_sentence_random]  1981 adventures Prediction halting Occasionally Renew Didn Denis containers weekends mah lang nostalgic Dys daughter MEP breakdown stopped FOIA Palace coax shaftavailable Lauderdale document GMO loginAz handful fig singerHot watching overrideSusraz Lithactually despicableactor
+
+CounterFact: 21919 facts loaded
+
+Facts: 20 prompts (answer counted correct if the chosen word equals the first word of the true answer)
+  GPT-2 top word correct:                        0.0%
+  Jev picking from GPT-2's top 8 words:          0.0%
+  Jev only when the gate fires, else GPT-2:      0.0%
+  Ceiling (true answer is among the top 8):     0.0%
+  When the answer was in the list, Jev chose it nan% of the time vs GPT-2 nan%
+
+By gate case:
+                        prompts  gpt2_acc  jev_acc  answer_in_top_k
+case                                                               
+contested_concentrated       20       0.0      0.0              0.0
+
+Examples where Jev and GPT-2 disagree:
+                                        prompt       gold          gpt2                     jev
+             Lyubov Orlova died in the city of     Moscow          ials                   knife
+           Kim Vilfort, who plays the position midfielder           Dys                  staple
+     Johanne Luise Heiberg speaks the language     Danish    repetition            ubiquitousML
+                        Citizen James performs     sitcom        Should                    stop
+  The language used by Alexandra Pascalidou is    Swedish     Australia     requisitesavailable
+Alexander William Kinglake speaks the language    English    itemsFight         complianceFight
+                    Bernard Musson, speaker of     French           bul                     DAC
+     Lucien, Lord of Monaco lost their life at     Monaco igmaticritten DeletepackedattaUnknown
+                       Miles Smiles, who plays       jazz YRattaardless                   bowls
+ Microsoft Internet Explorer 3 is developed by  Microsoft           Tri                   Cheng
+                Buenos Aires is a twin city of  Barcelona        Palace           magnesiumPenn
+                          The Cat Empire plays       jazz           ().                       �
+Total Jev calls this session: 21 | input tokens 3,453 | est. cost $0.0001 | errors 0
+Saved: jev_gpt2_runs/dry_run_gpt2-xl_N10_T40_seed0

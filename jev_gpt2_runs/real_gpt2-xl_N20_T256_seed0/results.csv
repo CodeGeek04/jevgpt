@@ -1,0 +1,19 @@
+method,source,n,diversity,MAUVE,coherence,rep-2,rep-4,MAUVE_n,gen_len,jev_calls_per_prompt,sec_per_prompt,gated_steps_%
+greedy,"published (paper, n=1314)",1314,1.77,4.91,-0.41,,,,,,,
+top-k (k=50),"published (paper, n=1314)",1314,87.49,81.0,-2.37,,,,,,,
+nucleus (p=0.95),"published (paper, n=1314)",1314,92.16,86.54,-3.03,,,,,,,
+typical (0.95),"published (paper, n=1314)",1314,94.82,86.07,-3.71,,,,,,,
+contrastive decoding (XL vs small),"published (paper, n=1314)",1314,88.02,91.46,-2.19,,,,,,,
+"contrastive search (k=5, α=0.6)","published (paper, n=1314)",1314,89.35,77.97,-1.56,,,,,,,
+greedy,"published outputs, re-scored here",20,1.37,66.21,-0.399,78.0,74.43,20.0,255.9,,,
+nucleus (p=0.95),"published outputs, re-scored here",20,95.68,91.37,-2.997,3.42,0.29,20.0,255.6,,,
+contrastive decoding (XL vs small),"published outputs, re-scored here",20,88.77,95.94,-2.14,9.15,0.41,20.0,255.9,,,
+"contrastive search (k=5, α=0.6)","published outputs, re-scored here",20,87.87,73.22,-1.537,6.95,2.54,19.0,246.7,,,
+greedy,this run (gpt2-xl),20,1.37,66.21,-0.399,78.0,74.43,20.0,255.9,0.0,2.61,
+nucleus,this run (gpt2-xl),20,96.74,87.68,-2.873,2.72,0.1,16.0,203.7,0.0,2.56,
+contrastive,this run (gpt2-xl),20,94.77,89.77,-1.527,4.34,0.29,18.0,231.6,0.0,20.73,
+jev_word,this run (gpt2-xl),20,11.56,41.29,-1.113,58.42,44.68,20.0,250.9,127.0,184.57,58.0
+ctrl_word_random,this run (gpt2-xl),20,33.76,91.37,-1.07,39.44,22.26,20.0,256.0,0.0,196.16,41.1
+jev_sentence,this run (gpt2-xl),20,93.59,97.29,-2.644,5.08,0.39,20.0,256.0,11.6,1042.14,
+ctrl_sentence_random,this run (gpt2-xl),20,93.46,89.77,-2.837,5.03,0.37,18.0,231.7,0.0,371.77,
+ctrl_sentence_selfrank,this run (gpt2-xl),20,66.68,87.68,-1.827,17.12,9.26,16.0,214.2,0.0,320.36,

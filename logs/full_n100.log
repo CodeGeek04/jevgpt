@@ -1,0 +1,252 @@
+mode: real | device: mps | transformers 4.46.3 | outputs -> jev_gpt2_runs/real_gpt2-xl_N100_T256_seed0
+generator: gpt2-xl | 1558M params
+Jev smoke test -> Canberra {'Sydney': 0.0, 'Canberra': 1.0, 'Melbourne': 0.0, ',': 0.0, '[new line]': 0.0}
+1314 benchmark prompts; using 100 (random subset, seed 0)
+example prompt: Headlam completed a flying instructors course in July 1936 and joined the staff of No. 1 FTS. He was promoted to flight lieutenant on 1 March 1937
+greedy: generating 80 outputs ...
+  greedy: 8/80  0.6 min elapsed, ~5.2 min left  | Jev calls so far 0
+  greedy: 16/80  0.6 min elapsed, ~2.3 min left  | Jev calls so far 0
+  greedy: 24/80  1.1 min elapsed, ~2.6 min left  | Jev calls so far 0
+  greedy: 32/80  1.1 min elapsed, ~1.7 min left  | Jev calls so far 0
+  greedy: 40/80  1.7 min elapsed, ~1.7 min left  | Jev calls so far 0
+  greedy: 48/80  1.7 min elapsed, ~1.1 min left  | Jev calls so far 0
+  greedy: 56/80  2.2 min elapsed, ~0.9 min left  | Jev calls so far 0
+  greedy: 64/80  2.2 min elapsed, ~0.6 min left  | Jev calls so far 0
+  greedy: 72/80  2.7 min elapsed, ~0.3 min left  | Jev calls so far 0
+  greedy: 80/80  2.7 min elapsed, ~0.0 min left  | Jev calls so far 0
+nucleus: generating 80 outputs ...
+  nucleus: 8/80  0.5 min elapsed, ~4.7 min left  | Jev calls so far 0
+  nucleus: 16/80  0.5 min elapsed, ~2.1 min left  | Jev calls so far 0
+  nucleus: 24/80  1.1 min elapsed, ~2.5 min left  | Jev calls so far 0
+  nucleus: 32/80  1.1 min elapsed, ~1.6 min left  | Jev calls so far 0
+  nucleus: 40/80  1.6 min elapsed, ~1.6 min left  | Jev calls so far 0
+  nucleus: 48/80  1.6 min elapsed, ~1.1 min left  | Jev calls so far 0
+  nucleus: 56/80  2.2 min elapsed, ~0.9 min left  | Jev calls so far 0
+  nucleus: 64/80  2.2 min elapsed, ~0.6 min left  | Jev calls so far 0
+  nucleus: 72/80  2.8 min elapsed, ~0.3 min left  | Jev calls so far 0
+  nucleus: 80/80  2.8 min elapsed, ~0.0 min left  | Jev calls so far 0
+contrastive: generating 80 outputs ...
+  contrastive: 8/80  2.9 min elapsed, ~25.9 min left  | Jev calls so far 0
+  contrastive: 16/80  5.7 min elapsed, ~22.9 min left  | Jev calls so far 0
+  contrastive: 24/80  8.5 min elapsed, ~19.8 min left  | Jev calls so far 0
+  contrastive: 32/80  11.3 min elapsed, ~17.0 min left  | Jev calls so far 0
+  contrastive: 40/80  14.2 min elapsed, ~14.2 min left  | Jev calls so far 0
+  contrastive: 48/80  17.1 min elapsed, ~11.4 min left  | Jev calls so far 0
+  contrastive: 56/80  19.9 min elapsed, ~8.5 min left  | Jev calls so far 0
+  contrastive: 64/80  22.6 min elapsed, ~5.7 min left  | Jev calls so far 0
+  contrastive: 72/80  25.3 min elapsed, ~2.8 min left  | Jev calls so far 0
+  contrastive: 80/80  28.0 min elapsed, ~0.0 min left  | Jev calls so far 0
+jev_sentence: generating 80 outputs ...
+  jev_sentence: 8/80  7.7 min elapsed, ~68.9 min left  | Jev calls so far 127
+  jev_sentence: 16/80  14.1 min elapsed, ~56.3 min left  | Jev calls so far 221
+  jev_sentence: 24/80  20.1 min elapsed, ~46.8 min left  | Jev calls so far 315
+  jev_sentence: 32/80  26.6 min elapsed, ~39.9 min left  | Jev calls so far 412
+  jev_sentence: 40/80  32.3 min elapsed, ~32.3 min left  | Jev calls so far 510
+  jev_sentence: 48/80  38.8 min elapsed, ~25.9 min left  | Jev calls so far 623
+  jev_sentence: 56/80  44.3 min elapsed, ~19.0 min left  | Jev calls so far 707
+  jev_sentence: 64/80  50.8 min elapsed, ~12.7 min left  | Jev calls so far 806
+  jev_sentence: 72/80  57.7 min elapsed, ~6.4 min left  | Jev calls so far 917
+  jev_sentence: 80/80  63.2 min elapsed, ~0.0 min left  | Jev calls so far 1000
+  jev_sentence: 1000 Jev calls, mean latency 310 ms, 679,198 input tokens (~$0.0285)
+ctrl_sentence_random: generating 80 outputs ...
+  ctrl_sentence_random: 8/80  7.0 min elapsed, ~62.6 min left  | Jev calls so far 0
+  ctrl_sentence_random: 16/80  13.3 min elapsed, ~53.1 min left  | Jev calls so far 0
+  ctrl_sentence_random: 24/80  18.7 min elapsed, ~43.7 min left  | Jev calls so far 0
+  ctrl_sentence_random: 32/80  24.5 min elapsed, ~36.8 min left  | Jev calls so far 0
+  ctrl_sentence_random: 40/80  30.5 min elapsed, ~30.5 min left  | Jev calls so far 0
+  ctrl_sentence_random: 48/80  36.4 min elapsed, ~24.3 min left  | Jev calls so far 0
+  ctrl_sentence_random: 56/80  42.1 min elapsed, ~18.0 min left  | Jev calls so far 0
+  ctrl_sentence_random: 64/80  46.4 min elapsed, ~11.6 min left  | Jev calls so far 0
+  ctrl_sentence_random: 72/80  53.2 min elapsed, ~5.9 min left  | Jev calls so far 0
+  ctrl_sentence_random: 80/80  55.6 min elapsed, ~0.0 min left  | Jev calls so far 0
+ctrl_sentence_selfrank: generating 80 outputs ...
+  ctrl_sentence_selfrank: 8/80  10.2 min elapsed, ~91.4 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 16/80  14.7 min elapsed, ~58.6 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 24/80  21.4 min elapsed, ~50.0 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 32/80  26.5 min elapsed, ~39.7 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 40/80  32.3 min elapsed, ~32.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 48/80  39.5 min elapsed, ~26.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 56/80  47.8 min elapsed, ~20.5 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 64/80  52.0 min elapsed, ~13.0 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 72/80  56.8 min elapsed, ~6.3 min left  | Jev calls so far 0
+  ctrl_sentence_selfrank: 80/80  61.2 min elapsed, ~0.0 min left  | Jev calls so far 0
+jev_word: generating 100 outputs ...
+  jev_word: 10/100  6.2 min elapsed, ~55.7 min left  | Jev calls so far 1780
+  jev_word: 20/100  11.0 min elapsed, ~44.0 min left  | Jev calls so far 3257
+  jev_word: 30/100  15.1 min elapsed, ~35.3 min left  | Jev calls so far 4526
+  jev_word: 40/100  18.7 min elapsed, ~28.1 min left  | Jev calls so far 5683
+  jev_word: 50/100  22.9 min elapsed, ~22.9 min left  | Jev calls so far 7114
+=== attempt 1 Thu Nov 26 20:41:41 IST 2026 ===
+mode: real | device: mps | transformers 4.46.3 | outputs -> jev_gpt2_runs/real_gpt2-xl_N100_T256_seed0
+generator: gpt2-xl | 1558M params
+Jev smoke test -> Canberra {'Sydney': 0.0, 'Canberra': 1.0, 'Melbourne': 0.0, ',': 0.0, '[new line]': 0.0}
+1314 benchmark prompts; using 100 (random subset, seed 0)
+example prompt: Headlam completed a flying instructors course in July 1936 and joined the staff of No. 1 FTS. He was promoted to flight lieutenant on 1 March 1937
+greedy: all 100 outputs already saved
+nucleus: all 100 outputs already saved
+contrastive: all 100 outputs already saved
+jev_sentence: all 100 outputs already saved
+ctrl_sentence_random: all 100 outputs already saved
+ctrl_sentence_selfrank: all 100 outputs already saved
+jev_word: generating 46 outputs ...
+  jev_word: 4/46  3.7 min elapsed, ~38.3 min left  | Jev calls so far 896
+  jev_word: 8/46  5.3 min elapsed, ~25.0 min left  | Jev calls so far 1294
+  jev_word: 12/46  7.3 min elapsed, ~20.7 min left  | Jev calls so far 1982
+  jev_word: 16/46  8.6 min elapsed, ~16.1 min left  | Jev calls so far 2360
+  jev_word: 20/46  11.7 min elapsed, ~15.3 min left  | Jev calls so far 3334
+  jev_word: 24/46  12.8 min elapsed, ~11.7 min left  | Jev calls so far 3662
+  jev_word: 28/46  14.6 min elapsed, ~9.4 min left  | Jev calls so far 4219
+  jev_word: 32/46  16.3 min elapsed, ~7.1 min left  | Jev calls so far 4872
+  jev_word: 36/46  17.5 min elapsed, ~4.9 min left  | Jev calls so far 5259
+  jev_word: 40/46  19.6 min elapsed, ~2.9 min left  | Jev calls so far 6026
+  jev_word: 44/46  20.5 min elapsed, ~0.9 min left  | Jev calls so far 6372
+  jev_word: 46/46  20.8 min elapsed, ~0.0 min left  | Jev calls so far 6424
+  jev_word: 6424 Jev calls, mean latency 288 ms, 3,493,831 input tokens (~$0.1467)
+ctrl_word_random: generating 80 outputs ...
+  ctrl_word_random: 8/80  4.1 min elapsed, ~36.8 min left  | Jev calls so far 0
+  ctrl_word_random: 16/80  8.1 min elapsed, ~32.2 min left  | Jev calls so far 0
+  ctrl_word_random: 24/80  11.6 min elapsed, ~27.0 min left  | Jev calls so far 0
+  ctrl_word_random: 32/80  15.2 min elapsed, ~22.9 min left  | Jev calls so far 0
+  ctrl_word_random: 40/80  19.1 min elapsed, ~19.1 min left  | Jev calls so far 0
+  ctrl_word_random: 48/80  22.3 min elapsed, ~14.8 min left  | Jev calls so far 0
+  ctrl_word_random: 56/80  26.2 min elapsed, ~11.2 min left  | Jev calls so far 0
+  ctrl_word_random: 64/80  29.5 min elapsed, ~7.4 min left  | Jev calls so far 0
+  ctrl_word_random: 72/80  32.5 min elapsed, ~3.6 min left  | Jev calls so far 0
+  ctrl_word_random: 80/80  35.1 min elapsed, ~0.0 min left  | Jev calls so far 0
+
+jev_word
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                7200        0.772           0.928              29.1                     NaN
+contested_diffuse        3956        0.180           0.477              16.0                     NaN
+contested_concentrated   1984        0.323           0.829               8.0                    69.0
+repeat                  11586        0.793           0.941              46.9                    35.1
+
+ctrl_word_random
+                        steps  mean_p_top1  mean_topk_mass  share_of_steps_%  picker_overrode_top1_%
+case                                                                                                
+confident                8783        0.751           0.921              35.9                     NaN
+contested_diffuse        5786        0.180           0.485              23.6                     NaN
+contested_concentrated   3159        0.318           0.824              12.9                    60.8
+repeat                   6768        0.781           0.904              27.6                    17.0
+WARNING clustering 194 points to 10 centroids: please provide at least 390 training points
+scored published outputs, re-scored here | greedy
+WARNING clustering 194 points to 10 centroids: please provide at least 390 training points
+scored published outputs, re-scored here | nucleus (p=0.95)
+WARNING clustering 194 points to 10 centroids: please provide at least 390 training points
+scored published outputs, re-scored here | contrastive decoding (XL vs small)
+WARNING clustering 184 points to 9 centroids: please provide at least 351 training points
+scored published outputs, re-scored here | contrastive search (k=5, α=0.6)
+WARNING clustering 190 points to 10 centroids: please provide at least 390 training points
+scored greedy
+WARNING clustering 162 points to 8 centroids: please provide at least 312 training points
+scored nucleus
+WARNING clustering 186 points to 9 centroids: please provide at least 351 training points
+scored contrastive
+WARNING clustering 182 points to 9 centroids: please provide at least 351 training points
+scored jev_sentence
+WARNING clustering 170 points to 8 centroids: please provide at least 312 training points
+scored ctrl_sentence_random
+WARNING clustering 162 points to 8 centroids: please provide at least 312 training points
+scored ctrl_sentence_selfrank
+WARNING clustering 188 points to 9 centroids: please provide at least 351 training points
+scored jev_word
+WARNING clustering 192 points to 10 centroids: please provide at least 390 training points
+scored ctrl_word_random
+                            method                            source    n  diversity  MAUVE  MAUVE_n  coherence  rep-2  rep-4  gen_len  jev_calls_per_prompt  gated_steps_%  sec_per_prompt
+                            greedy         published (paper, n=1314) 1314       1.77   4.91      NaN     -0.410    NaN    NaN      NaN                   NaN            NaN             NaN
+                      top-k (k=50)         published (paper, n=1314) 1314      87.49  81.00      NaN     -2.370    NaN    NaN      NaN                   NaN            NaN             NaN
+                  nucleus (p=0.95)         published (paper, n=1314) 1314      92.16  86.54      NaN     -3.030    NaN    NaN      NaN                   NaN            NaN             NaN
+                    typical (0.95)         published (paper, n=1314) 1314      94.82  86.07      NaN     -3.710    NaN    NaN      NaN                   NaN            NaN             NaN
+contrastive decoding (XL vs small)         published (paper, n=1314) 1314      88.02  91.46      NaN     -2.190    NaN    NaN      NaN                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6)         published (paper, n=1314) 1314      89.35  77.97      NaN     -1.560    NaN    NaN      NaN                   NaN            NaN             NaN
+                            greedy published outputs, re-scored here  100       1.51   4.99     97.0     -0.394  77.33  73.48    256.0                   NaN            NaN             NaN
+                  nucleus (p=0.95) published outputs, re-scored here  100      92.75  86.42     97.0     -2.986   4.74   1.06    255.8                   NaN            NaN             NaN
+contrastive decoding (XL vs small) published outputs, re-scored here  100      89.01  96.71     97.0     -2.199   8.97   0.44    255.8                   NaN            NaN             NaN
+   contrastive search (k=5, α=0.6) published outputs, re-scored here  100      87.33  83.64     92.0     -1.571   7.42   2.57    238.2                   NaN            NaN             NaN
+                            greedy                this run (gpt2-xl)  100       1.54   5.02     95.0     -0.411  77.16  73.31    251.2                   0.0            NaN            2.17
+                           nucleus                this run (gpt2-xl)  100      92.78  98.60     81.0     -2.961   4.82   1.01    215.8                   0.0            NaN            2.17
+                       contrastive                this run (gpt2-xl)  100      93.60  94.59     93.0     -1.576   5.07   0.45    244.8                   0.0            NaN           20.97
+                      jev_sentence                this run (gpt2-xl)  100      92.10  91.52     91.0     -2.666   5.87   0.60    245.4                  12.3            NaN          504.53
+              ctrl_sentence_random                this run (gpt2-xl)  100      93.53  96.86     85.0     -3.049   4.61   0.63    230.0                   0.0            NaN          336.25
+            ctrl_sentence_selfrank                this run (gpt2-xl)  100      63.16  73.93     81.0     -1.776  18.61  10.76    220.2                   0.0            NaN          352.19
+                          jev_word                this run (gpt2-xl)  100      15.41  32.53     94.0     -1.191  53.60  39.68    250.0                 135.7           54.9          206.18
+                  ctrl_word_random                this run (gpt2-xl)  100      36.32  74.86     96.0     -1.112  37.42  20.81    251.4                   0.0           40.5          204.28
+====================================================================================================
+PROMPT: Headlam completed a flying instructors course in July 1936 and joined the staff of No. 1 FTS. He was promoted to flight lieutenant on 1 March 1937
+----------------------------------------------------------------------------------------------------
+[greedy] . On 1 August 1937, he was promoted to captain. On 1 September 1937, he was promoted to first lieutenant. On 1 October 1937, he was promoted to captain. On 1 November 1937, he was promoted to first lieutenant. On 1 December 1937, he was promoted to captain. On 1 January 1938, he was promoted to first lieutenant. On 1 February 1938, he was promoted to captain. On 1 March 1938, he was promoted to first lieutenant. On 1 April 1938, he was promoted to captain. On 1 May 1938, he was promoted to first lieutenant. On 1 June 1938, he was promoted to captain. On 1 July 1938, he was promoted to first li
+
+[contrastive]  and flew his first sortie the following month. ⏎  ⏎ Headlam's career took off in the summer of 1937 when he took part in the Battle of Britain, which saw the Luftwaffe attempt to break the stalemate of the Second World War by attacking Britain's airbases and aircraft manufacturing facilities. In this role, Headlam shot down a Messerschmitt Me 262 and an Focke-Wulf 190. ⏎  ⏎ After the war, Headlam continued to fly and served as a test pilot for the Royal Aeronautical Society (RAS, now the Royal Astronomical Society of the United Kingdom) and the Air Defence Command (ADC, now the Ministry of Defence). 
+
+[jev_word] . ⏎  ⏎ On 1 March 1937, Headlam was promoted to flight lieutenant. ⏎  ⏎ He was promoted to captain on 1 March 1938. ⏎  ⏎ He was promoted to major on 1 March 1939. ⏎  ⏎ He was promoted to lieutenant colonel on 1 March 1940. ⏎  ⏎ He was promoted to colonel on 1 March 1941. ⏎  ⏎ He was promoted to brigadier general on 1 March 1942. ⏎  ⏎ He was promoted to general on 1 March 1943. ⏎  ⏎ He was promoted to field marshal on 1 March 1944. ⏎  ⏎ He was promoted to supreme commander on 1 March 1945. ⏎  ⏎ He retired in 1946. ⏎  ⏎ He died in 1947. ⏎  ⏎ He died aged 62. ⏎  ⏎ His body was buried in the cemetery at No. 1 FTS. ⏎  ⏎ His grave is located in the cemet
+
+[ctrl_word_random]  and was assigned to No. 1 FTS as a flight instructor on 1 April 1937. On 1 May 1937, he was promoted to flight lieutenant and assigned to No. 1 FTS. On 1 July 1937, he was promoted to flying instructor and assigned to No. 1 FTS. On 1 September 1937, he was promoted to flight lieutenant and was assigned to a flying squadron of No. 1 FTS. He was promoted to flying instructor on 1 November 1937 and was assigned to No. 1 FTS as instructor on 1 December 1937. On 1 January 1938, he was promoted to flight officer and was assigned to the No. 1 Flight. On 1 May 1938, he was reassigned to the No. 1 Fli
+
+[jev_sentence] , and became a senior instructor on 30 March and followed work as a flight instructor in the aero school and the flight instructor school on 5 October. Shortly afterwards he was assigned to No. 4 Flight in No. 8 FTS, and in 1937 was made an instructor to No. 11 Flight. ⏎  ⏎ In 1938 he was transferred to No. 4 FTS at Moulmein-en-Goëret, and on 22 January 1939 he was promoted to pilot in command of No. 11 Flight. In March 1939 he was assigned to No. 7 FTS as flying instructor to the air force flight experiment field at Abbeville, and joined it in July that year. Following the German occupation of Fr
+
+[ctrl_sentence_random]  and assigned as commanding officer of No. 1 FTS on 2 April 1937. He knew that the possibility of free fall was anathema to the pacifist men in service in England. On 6 June, Headlam asked Clyde Sharp, an acrobat and roof climber to train him and stand by his side. Since it was feared that the Poles might attempt to occupy Crimea, their practice flights at the lost site of Azeitov near Sevastopol in 1940 promised to be more spectacular than those in the course of an average night. {246} On 16 July, July, July and 16, 8 and 29 July, the crew of No.1 FTS completed mock raids on a fighter airfiel
+
+====================================================================================================
+PROMPT: The city's growth has reflected the push and pull of many social and economic factors. The total population increased in each census from the city's founding
+----------------------------------------------------------------------------------------------------
+[greedy]  in 1851 to the 2010 census. The population increased by about 1.5 percent per year from 1851 to 2010. The population increased by about 1.5 percent per year from 1851 to 2010. ⏎  ⏎ The population increased by about 1.5 percent per year from 1851 to 2010. The population increased by about 1.5 percent per year from 1851 to 2010. ⏎  ⏎ The population increased by about 1.5 percent per year from 1851 to 2010. The population increased by about 1.5 percent per year from 1851 to 2010. ⏎  ⏎ The population increased by about 1.5 percent per year from 1851 to 2010. The population increased by about 1.5 percent per 
+
+[contrastive]  in 1851 to the most recent count in 2010, but there was a sharp drop in the mid-1990s and an even steeper decline after the dot-com bust in 2000. ⏎  ⏎ Photo ⏎  ⏎ In recent years, growth has been driven by immigrants from Latin America, who account for more than a quarter of the city's population, and the influx of college-educated, high-earning professionals. Those trends helped offset the population decline that began in the early 1990s, when the baby boomers began to retire and leave the city in droves. ⏎  ⏎ As recently as 2000, New York was the fastest-growing city in the country, with a population th
+
+[jev_word]  in 1851 to the 2010 census. The population increased by about 1.1 percent per year. The population increased by more than 1.1 percent during the Great Depression. The population increased by more than 1 percent during WWII. The population increased during the 1960s. The population increased during 1970s. The population increased during 1980s. The population increased during 1990s. The population increased during 2000s. The population increased during 2010s. The census population estimates are based on the 2010 census. ⏎  ⏎ The population of the city of Chicago is estimated by the U.S. Census Bure
+
+[ctrl_word_random]  in 1851 to the 2010 census. The population increased by about 1.7 percent from 2000 to 2010, and by about 1.5 percent from 1990 to 2010. ⏎  ⏎ The population growth has been driven by the city's growth as a major economic center. The city's population has more than doubled since 1970, when it was about 1.1 million. The city has grown by about 1.1 percent per year since 1990, and by about 2.5 percent per year since 2000. ⏎  ⏎ The city's growth has been driven by many factors, including the growth of the city's population, the growth of employment in the city, the growth of business activity in the city
+
+[jev_sentence]  in 1767 to 2010, with nine growth censuses. The first census was taken in 1790. ⏎  ⏎ Over all, the 1790 census was the first to count all residents of the city, while its second, 1871, counted natives only. For decades, the two census years differed significantly in the numbers counted, though the two were by no means opposite ends of the spectrum. ⏎  ⏎ By the 1910 census, the total population of the city was 320,649. Many of the newcomers to the city were skilled artisans seeking new jobs; most did not own property. Ten years later, in 1920, the city was at 414,265, approximately 105 percent of the 
+
+[ctrl_sentence_random] , with an increase of 25,486 in 1900. The population increased a further 12% in 1980 to 63,532 (Figure 1). The rate of growth, reaching a peak in 1991, decreased in a 12 year period from 1995 to 1999 to 5.9%. The rate of increase has then resumed in recent years, reaching a record annual rate of 7.3% in 2003. A decade or so ago, state law required a population of a certain square miles to be residentially incorporated and incorporated city estimates work out to a sensible footprint for the city. ⏎  ⏎ Population Total 1910 1893 1886 1885 1980 1990 2026 2329 3431 3155 5947 (mm) (mm) (mm) (mm) (mm) (
+
+====================================================================================================
+PROMPT: In 2011, the Eskimos utilized a committee of running backs, with McCarty, Daniel Porter, and Jerome Messam all receiving significant playing time.
+----------------------------------------------------------------------------------------------------
+[greedy]  ⏎  ⏎ The Eskimos have a new committee of running backs, with the addition of former Saskatchewan Roughriders and Calgary Stampeders running back Jerome Messam. ⏎  ⏎ Messam, who was released by the Stampeders on Monday, will be the Eskimos' starting running back on Sunday against the B.C. Lions. ⏎  ⏎ "Jerome is a guy that we've been looking at for a while," said Eskimos head coach Jason Maas. "He's a guy that we've been looking at for a while. He's a guy that we've been looking at for a while. ⏎  ⏎ "He's a guy that we've been looking at for a while. He's a guy that we've been looking at for a while. He's a gu
+
+[contrastive]  ⏎  ⏎ This year, the Eskimos are looking to build on that success, and it's no secret that Messam is their most talented back. ⏎  ⏎ In an interview with TSN 1040's Elliotte Friedman, head coach Jason Maas talked about his team's depth at tailback heading into training camp. ⏎  ⏎ "I think we have a lot of guys that can play," Maas said. "There's no question about that. It's going to be a battle for that starting job, but that's part of the game. You're going to have to fight for your job every day in the weight room and on the field. We've got a good group of guys that are capable of doing that." ⏎  ⏎ While th
+
+[jev_word]  ⏎  ⏎ The Eskimos have a new committee for 2012, with Messam, Porter, and rookie Andrew Harris all receiving significant playing time. ⏎  ⏎ "I think it's a good group right now," said Eskimos head coach Jason Maas. "They're all good players." ⏎  ⏎ The trio of Messam, Harris, and Porter have combined for 1,845 yards rushing. ⏎  ⏎ "They're all good players," said Maas. "They can all contribute." ⏎  ⏎ "They can all contribute," said Eskimos head coach. "They can also be a good running back tandem." ⏎  ⏎ "They can be a good tandem." ⏎ .@Eskimos coach Jason Maaas on the running back rotation: "They can be good tandem." ⏎ . . 
+
+[ctrl_word_random]  ⏎  ⏎ The Eskimos have a new committee at running back in 2016, with the addition of former Toronto Argonauts running back Jerome Messam. ⏎  ⏎ The 27-year-old Messam was selected by the Toronto Argonauts in the fourth round of the 2012 CFL Draft. ⏎  ⏎ Messam spent four seasons with the Argos, rushing for 6,857 yards and 46 touchdowns on 586 carries. He finished his CFL career with the Argonauts with 1,821 rushing yards and 16 touchdowns, and was named to the CFL All-Rookie Team in 2011. ⏎  ⏎ The 6-foot-1, 210-pound Messam was a member of the Canadian Olympic team in 2014, and was also the Argos' leading recei
+
+[jev_sentence]  Combined they managed to score 23 touchdowns. In 2012 the committee was depleted, with Messam suffering an injury and Porter announcing his intention to continue his career in Europe. ⏎  ⏎ As a result, the running back position became much more fluid, as the team was able to integrate a younger generation into the mix. Two of those younger backs are Martin and Getzlaf. ⏎  ⏎ Martin, 25, is entering his fifth full professional season. With 376 rushes he has a combined average of 5.5 yards per carry over the last two years. ⏎  ⏎ Getzlaf, 23, has really impressed this summer as well, with 700-plus yards (eno
+
+[ctrl_sentence_random]  Messam and Porter were bona fide starters, while McCarty played just enough to stay relevant as a third-down backup. ⏎  ⏎ The 2016 season brought additional change. Both McCarty and Messam lost their starting jobs in favour of people outside of that group, with Porter and McCarty supporting rookie tailbacks Nik Lewis and Reilly Smith. Messam bounced back with a strong campaign, while McCarty was ineffective and occasionally lost his job to the bigger, stronger Messam. ⏎  ⏎ The Messam-McCarty-Pridean trio is one of the most prominent running back trios in the CFL. In a league that lacks diversity, FOU
+
+CounterFact: 21919 facts loaded
+
+Facts: 500 prompts (answer counted correct if the chosen word equals the first word of the true answer)
+  GPT-2 top word correct:                        9.8%
+  Jev picking from GPT-2's top 8 words:         23.0%
+  Jev only when the gate fires, else GPT-2:      9.6%
+  Ceiling (true answer is among the top 8):    28.4%
+  When the answer was in the list, Jev chose it 81.0% of the time vs GPT-2 34.5%
+
+By gate case:
+                        prompts  gpt2_acc  jev_acc  answer_in_top_k
+case                                                               
+confident                   110      13.6     24.5             29.1
+contested_concentrated       28      10.7      7.1             17.9
+contested_diffuse           362       8.6     23.8             29.0
+
+Examples where Jev and GPT-2 disagree:
+                                        prompt       gold    gpt2      jev
+             Lyubov Orlova died in the city of     Moscow Krasnod  Saratov
+           Kim Vilfort, who plays the position midfielder       ,       in
+     Johanne Luise Heiberg speaks the language     Danish      of fluently
+                        Citizen James performs     sitcom       a      his
+  The language used by Alexandra Pascalidou is    Swedish       a      the
+Alexander William Kinglake speaks the language    English      of fluently
+                    Bernard Musson, speaker of     French     the   Quebec
+     Lucien, Lord of Monaco lost their life at     Monaco     the      sea
+                Buenos Aires is a twin city of  Barcelona  Buenos  Córdoba
+                          The Cat Empire plays       jazz       a       in
+           Jehuda Cresques speaks the language    Catalan      of fluently
+                   William Johnson Cory speaks    English      to    about
+Total Jev calls this session: 6,925 | input tokens 3,674,300 | est. cost $0.1543 | errors 0
+Saved: jev_gpt2_runs/real_gpt2-xl_N100_T256_seed0
+=== finished Thu Nov 26 21:52:15 IST 2026 ===

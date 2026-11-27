@@ -1,0 +1,19 @@
+method,source,n,diversity,MAUVE,coherence,rep-2,rep-4,MAUVE_n,gen_len,jev_calls_per_prompt,sec_per_prompt,gated_steps_%
+greedy,"published (paper, n=1314)",1314,1.77,4.91,-0.41,,,,,,,
+top-k (k=50),"published (paper, n=1314)",1314,87.49,81.0,-2.37,,,,,,,
+nucleus (p=0.95),"published (paper, n=1314)",1314,92.16,86.54,-3.03,,,,,,,
+typical (0.95),"published (paper, n=1314)",1314,94.82,86.07,-3.71,,,,,,,
+contrastive decoding (XL vs small),"published (paper, n=1314)",1314,88.02,91.46,-2.19,,,,,,,
+"contrastive search (k=5, α=0.6)","published (paper, n=1314)",1314,89.35,77.97,-1.56,,,,,,,
+greedy,"published outputs, re-scored here",10,1.88,99.81,-10.826,75.61,71.53,10.0,256.0,,,
+nucleus (p=0.95),"published outputs, re-scored here",10,96.3,97.49,-10.83,2.96,0.22,10.0,255.6,,,
+contrastive decoding (XL vs small),"published outputs, re-scored here",10,91.25,73.88,-10.833,7.32,0.29,10.0,255.9,,,
+"contrastive search (k=5, α=0.6)","published outputs, re-scored here",10,80.77,,-10.823,9.4,5.13,9.0,239.7,,,
+greedy,this run (DRY RUN),10,99.59,,-10.828,0.41,0.0,0.0,42.0,0.0,0.45,
+nucleus,this run (DRY RUN),10,100.0,,-10.844,0.0,0.0,0.0,41.8,0.0,0.05,
+contrastive,this run (DRY RUN),10,100.0,,-10.86,0.0,0.0,0.0,41.9,0.0,0.22,
+jev_word,this run (DRY RUN),10,100.0,,-10.825,0.0,0.0,0.0,42.5,20.0,7.36,99.3
+ctrl_word_random,this run (DRY RUN),10,100.0,,-10.835,0.0,0.0,0.0,43.2,0.0,3.34,99.7
+jev_sentence,this run (DRY RUN),10,100.0,,-10.832,0.0,0.0,0.0,42.0,1.1,1.46,
+ctrl_sentence_random,this run (DRY RUN),10,100.0,,-10.826,0.0,0.0,0.0,41.1,0.0,0.75,
+ctrl_sentence_selfrank,this run (DRY RUN),10,100.0,,-10.835,0.0,0.0,0.0,40.5,0.0,0.82,

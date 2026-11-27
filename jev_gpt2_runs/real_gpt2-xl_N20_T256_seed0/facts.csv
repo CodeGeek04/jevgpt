@@ -1,0 +1,101 @@
+prompt,gold,case,gpt2,jev,gpt2_ok,jev_ok,in_top_k,gated_ok
+Lyubov Orlova died in the city of,Moscow,contested_diffuse,Krasnod,Saratov,False,False,False,False
+"Kim Vilfort, who plays the position",midfielder,contested_concentrated,",",in,False,False,False,False
+Johanne Luise Heiberg speaks the language,Danish,confident,of,fluently,False,False,False,False
+Citizen James performs,sitcom,contested_diffuse,a,his,False,False,False,False
+The language used by Alexandra Pascalidou is,Swedish,contested_diffuse,a,the,False,False,False,False
+Alexander William Kinglake speaks the language,English,confident,of,fluently,False,False,False,False
+"Bernard Musson, speaker of",French,confident,the,Quebec,False,False,False,False
+"Lucien, Lord of Monaco lost their life at",Monaco,confident,the,sea,False,False,False,False
+"Miles Smiles, who plays",jazz,contested_diffuse,the,the,False,False,False,False
+Microsoft Internet Explorer 3 is developed by,Microsoft,confident,Microsoft,Microsoft,True,True,True,True
+Buenos Aires is a twin city of,Barcelona,contested_diffuse,Buenos,Mexico,False,False,False,False
+The Cat Empire plays,jazz,contested_diffuse,a,in,False,False,False,False
+Jehuda Cresques speaks the language,Catalan,confident,of,fluently,False,False,False,False
+William Johnson Cory speaks,English,contested_concentrated,to,about,False,False,False,False
+"Tim Davie, of",BBC,contested_diffuse,the,the,False,False,False,False
+"Jack Sheldon, playing the",trumpet,contested_diffuse,role,role,False,False,False,False
+Jussi Markkanen plays as,goaltender,contested_concentrated,a,a,False,False,False,False
+"Deion Sanders, the",baseball,contested_diffuse,former,former,False,False,False,False
+Alfred Hitchcock Presents was released on,CBS,contested_diffuse,DVD,October,False,False,False,False
+Levski Ridge is located in the continent,Antarctica,contested_concentrated,of,of,False,False,False,False
+Carl Flesch worked in the city of,Berlin,contested_diffuse,Chicago,New,False,False,False,False
+J. Anthony Lukas's profession is an,journalist,contested_diffuse,interesting,economist,False,False,False,False
+Virtual Hard Disk was created by,Microsoft,contested_diffuse,the,Microsoft,False,True,True,False
+"Orlando International Airport, which is named after",Orlando,contested_diffuse,the,Orlando,False,True,True,False
+Where is 2SM? It is located in,Sydney,contested_diffuse,the,New,False,False,False,False
+Lancia Ypsilon is created by,Fiat,contested_diffuse,the,the,False,False,False,False
+Beaumont Glacier belongs to the continent of,Antarctica,contested_diffuse,Antarctica,Antarctica,True,True,True,True
+Ignacio Carrera Pinto was originally from,Santiago,contested_diffuse,the,Spain,False,False,False,False
+The twin city of Santo Domingo is,Milan,contested_diffuse,the,known,False,False,False,False
+The profession of Sekhar Menon is,actor,contested_diffuse,a,a,False,False,False,False
+Genrikh Sapgir holds a citizenship from,Russia,contested_diffuse,the,Russia,False,True,True,False
+Nimbus Hills is located in,Antarctica,confident,the,San,False,False,False,False
+Sergey Lukyanenko used to work in,Moscow,contested_diffuse,the,IT,False,False,True,False
+Boss Volenti was founded in,Dublin,contested_diffuse,the,2009,False,False,False,False
+Jean Hyppolite speaks,French,contested_concentrated,to,with,False,False,False,False
+octane's domain of activity is,chemistry,contested_diffuse,the,its,False,False,False,False
+Erich Mendelsohn worked in the city of,Berlin,contested_diffuse,Berlin,Berlin,True,True,True,True
+"Indianapolis International Airport, which is named after",Indianapolis,contested_diffuse,the,Indianapolis,False,True,True,False
+Osmaniye Province is in,Turkey,confident,the,southern,False,False,False,False
+The headquarter of University of Florence is located in,Florence,contested_concentrated,the,Florence,False,True,True,True
+Matsukata Masayoshi holds a citizenship from,Japan,contested_diffuse,the,Japan,False,True,True,False
+The language used by Victor Jacquemont is,French,contested_diffuse,a,the,False,False,False,False
+Ralph Lyford performs,opera,contested_diffuse,a,his,False,False,False,False
+Greenwich Park is in,Greenwich,contested_diffuse,the,London,False,False,False,False
+The language of Orr Eravuu is,Tamil,contested_diffuse,a,the,False,False,False,False
+Kids Can Press's headquarters are in,Toronto,contested_diffuse,a,New,False,False,False,False
+The profession of Rita Bahuguna is,politician,contested_diffuse,a,a,False,False,False,False
+"Triumph TR8, produced by",Triumph,contested_diffuse,Triumph,Triumph,True,True,True,True
+Enos Slaughter plays in the position of,outfielder,contested_diffuse,the,center,False,False,False,False
+"Unus pro omnibus, omnes pro uno is written in",Latin,confident,the,Latin,False,True,True,False
+"Luis Bacalov, who is a citizen of",Italy,contested_diffuse,the,Spain,False,False,False,False
+Benedict Joseph Fenwick has the position of,bishop,contested_diffuse,Chief,the,False,False,False,False
+Shazzan was originally aired on,CBS,contested_diffuse,the,the,False,False,False,False
+Bert Joris plays the instrument,trumpet,contested_diffuse,of,.,False,False,False,False
+Samuel von Fischer worked in the city of,Berlin,contested_diffuse,Leipzig,Berlin,False,True,True,False
+"In Dominica, an official language is",English,contested_diffuse,English,English,True,True,True,True
+"Joyce Bamford-Addo, who is a citizen of",Ghana,contested_diffuse,the,Ghana,False,True,True,False
+Good Sports is to debut on,CBS,contested_diffuse,the,ESPN2,False,False,True,False
+Nokia N900 is produced by,Nokia,contested_diffuse,Nokia,Nokia,True,True,True,True
+"Fats Waller, playing the",singing,contested_diffuse,role,"""",False,False,False,False
+Paul McCartney works in the field of,musician,contested_diffuse,music,music,False,False,False,False
+Wells Coates died at,Vancouver,contested_diffuse,the,92,False,False,False,False
+The language used by Salvatore Accardo is,Italian,contested_diffuse,a,the,False,False,False,False
+Edinburgh Mathematical Society works in the area of,mathematics,contested_diffuse,mathematical,mathematics,False,True,True,False
+Dez Dickerson was native to,Minneapolis,contested_diffuse,the,Houston,False,False,False,False
+Boeing 777 is created by,Boeing,contested_diffuse,Boeing,Boeing,True,True,True,True
+"Kungliga Svenska Segelsällskapet, in",Sweden,contested_diffuse,Stockholm,Stockholm,False,False,True,False
+Gmina Pokrzywnica is located in the country of,Poland,confident,Poland,Poland,True,True,True,True
+Patricia Barber performs,jazz,contested_diffuse,a,her,False,False,False,False
+Google Checkout was created by,Google,contested_diffuse,Amazon,Google,False,True,True,False
+Giovanni Francesco Sagredo's occupation is,mathematician,contested_diffuse,unknown,a,False,False,False,False
+"Nesodden IF, in",Norway,contested_diffuse,the,the,False,False,False,False
+"In Namibia, the language spoken is",English,contested_diffuse,called,Afrikaans,False,False,False,False
+Martin Burrell works as,politician,confident,a,a,False,False,False,False
+Ray Stubbs is employed by,BBC,confident,the,the,False,False,False,False
+The official language of Equatorial Guinea is,Portuguese,contested_concentrated,Spanish,Spanish,False,False,True,False
+"Daniel Caligiuri, who plays the position",midfielder,contested_concentrated,",",of,False,False,False,False
+George Elliott Clarke worked in,Toronto,confident,the,various,False,False,False,False
+David G. Bromley's area of work is,sociology,contested_diffuse,the,the,False,False,False,False
+"Sturla Gunnarsson, who has a citizenship from",Canada,contested_concentrated,Iceland,Iceland,False,False,False,False
+Laura Antoniou's profession is an,novelist,contested_diffuse,interesting,interesting,False,False,False,False
+What does Morty Corb play? They play,jazz,contested_diffuse,a,football,False,False,False,False
+Tiber is located in,Europe,confident,the,central,False,False,False,False
+"Luapula River, in",Africa,contested_diffuse,the,the,False,False,False,False
+"WebKit, a product created by",Apple,confident,Apple,Apple,True,True,True,True
+What is the twin city of Naples? It is,Budapest,contested_concentrated,a,the,False,False,False,False
+"Jim Bagby, Sr. plays in the position of",pitcher,contested_diffuse,the,quarterback,False,False,False,False
+Yvette Giraud speaks the language,French,confident,of,fluently,False,False,False,False
+The genre played by Todd Sickafoose is,jazz,contested_diffuse,a,called,False,False,False,False
+What is the twin city of Ostrava? It is,Dresden,contested_concentrated,a,the,False,False,False,False
+Khosrow Shakibai succumbed at,Tehran,confident,the,age,False,False,False,False
+"De Grote Donorshow, that originated in",Netherlands,contested_diffuse,the,Belgium,False,False,False,False
+Festning Tunnel can be found in,Oslo,confident,the,Nardah,False,False,False,False
+Haakon Lie died in the city of,Oslo,contested_diffuse,Krakow,Oslo,False,True,True,False
+Eiger belongs to the continent of,Europe,contested_diffuse,Africa,Europe,False,True,True,False
+"DC-3, developed by",Douglas,contested_diffuse,the,the,False,False,False,False
+Shearing Pinx was created in,Vancouver,contested_diffuse,the,2009,False,False,False,False
+Maurice Dekobra speaks,French,contested_concentrated,to,about,False,False,False,False
+"Sidhi district, in",India,contested_diffuse,the,eastern,False,False,False,False
+Eugene Odum's domain of activity is,ecology,contested_diffuse,the,in,False,False,False,False
